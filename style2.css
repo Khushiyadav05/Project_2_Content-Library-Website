@@ -1,0 +1,116 @@
+.form{
+    width: 270px;
+    height: 450px;
+    background: linear-gradient(to top, rgba(0,0,0.8)50% ,rgba(0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: -16%;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orangered;
+    font-size: 22px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 2px solid orangered;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: aliceblue;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+
+
+
+.btn{
+    width: 240px;
+    height: 40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    
+    font-size: 18px;
+    border-radius: 10px;
+   
+    cursor: pointer;
+    color: aliceblue;
+
+}
+.btn:hover{
+    background: white;
+    color: orangered;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+
+.form .link a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.icon ion-icon{
+    color: aliceblue;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+
+}
+
+.icon ion-icon:hover{
+    color: orangered;
+}

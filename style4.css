@@ -1,0 +1,64 @@
+body{
+    background-color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+.login{
+    width: 450px;
+    height: 620px;
+    margin: auto;
+    background-color: white;
+    border-radius: 3px;
+}
+.sign{
+    width: 450px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background-color: aliceblue;
+
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 360px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+input[type="submit"]{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.p2{
+    text-align: center;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.p2 a{
+    color: blue;
+
+}
